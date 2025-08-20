@@ -2,41 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Chasta SkyGuard Design System - Lightning Protection Services */
 
 @layer base {
   :root {
+    /* Brand Colors - Lightning Protection Theme */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 204 100% 12%; /* Deep Navy Blue #0a2540 */
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 204 100% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 204 100% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Deep Navy Blue */
+    --primary: 204 100% 15%; /* #0a2540 */
+    --primary-foreground: 0 0% 98%;
+    --primary-light: 204 85% 25%;
+    --primary-dark: 204 100% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Professional Gray */
+    --secondary: 0 0% 96%; /* #f5f5f5 */
+    --secondary-foreground: 204 100% 12%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Accent - Electric Yellow */
+    --accent-yellow: 45 95% 50%; /* #f7b500 */
+    --accent-yellow-foreground: 204 100% 12%;
+    --accent-yellow-light: 45 100% 70%;
+    --accent-yellow-dark: 45 95% 35%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --accent: 0 0% 96%;
+    --accent-foreground: 204 100% 12%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --radius: 0.5rem;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 204 100% 15%;
+
+    --radius: 0.75rem;
+
+    /* Custom Brand Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-dark)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent-yellow)), hsl(var(--accent-yellow-light)));
+    --gradient-lightning: linear-gradient(45deg, hsl(var(--accent-yellow)), hsl(var(--primary-light)));
+
+    /* Shadows with brand colors */
+    --shadow-brand: 0 10px 30px -5px hsl(var(--primary) / 0.1);
+    --shadow-accent: 0 10px 25px -5px hsl(var(--accent-yellow) / 0.2);
+    --shadow-card: 0 4px 12px -2px hsl(var(--primary) / 0.08);
+
+    /* Animation Variables */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
