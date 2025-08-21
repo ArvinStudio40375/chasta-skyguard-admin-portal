@@ -45,7 +45,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="inline-flex px-8 py-3 bg-accent-yellow text-accent-yellow-foreground rounded-lg font-semibold hover:bg-accent-yellow/90 transition-colors"
             >
-              WhatsApp: +62 812-2155-6554
+              WhatsApp: +6281221556554
             </a>
           </div>
         </section>

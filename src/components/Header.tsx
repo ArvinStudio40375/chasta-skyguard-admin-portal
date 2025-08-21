@@ -67,7 +67,7 @@ const Header = () => {
               className="flex items-center text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               <Phone className="h-4 w-4 mr-1" />
-              +62 812-2155-6554
+              +6281221556554
             </a>
             <Button variant="hero" size="lg" onClick={() => handleNavClick('#contact')}>
               Konsultasi Gratis
@@ -112,7 +112,7 @@ const Header = () => {
                   className="flex items-center px-3 py-2 text-sm text-muted-foreground"
                 >
                   <Phone className="h-4 w-4 mr-2" />
-                  +62 812-2155-6554
+                  +6281221556554
                 </a>
                 <div className="px-3">
                   <Button 
