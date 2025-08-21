@@ -50,6 +50,51 @@ export type Database = {
         }
         Relationships: []
       }
+      calculations: {
+        Row: {
+          area: number
+          building_type: string
+          created_at: string
+          email: string
+          estimated_cost: number
+          height: number
+          id: string
+          lightning_points: number
+          name: string
+          package: string
+          phone: string
+          system_type: string
+        }
+        Insert: {
+          area: number
+          building_type: string
+          created_at?: string
+          email: string
+          estimated_cost: number
+          height: number
+          id?: string
+          lightning_points: number
+          name: string
+          package: string
+          phone: string
+          system_type: string
+        }
+        Update: {
+          area?: number
+          building_type?: string
+          created_at?: string
+          email?: string
+          estimated_cost?: number
+          height?: number
+          id?: string
+          lightning_points?: number
+          name?: string
+          package?: string
+          phone?: string
+          system_type?: string
+        }
+        Relationships: []
+      }
       leads: {
         Row: {
           created_at: string

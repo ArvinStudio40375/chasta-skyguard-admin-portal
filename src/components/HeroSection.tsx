@@ -11,7 +11,7 @@ const HeroSection = () => {
   };
 
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/628123456789?text=Halo%20Chasta%20SkyGuard%2C%20saya%20ingin%20konsultasi%20tentang%20pemasangan%20penangkal%20petir', '_blank');
+    window.open('https://wa.me/6281221556554?text=Halo%20Chasta%20SkyGuard%2C%20saya%20ingin%20konsultasi%20tentang%20pemasangan%20penangkal%20petir', '_blank');
   };
 
   return (

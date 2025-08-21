@@ -11,6 +11,7 @@ const Header = () => {
     { name: 'Tentang Kami', href: '#about', current: false },
     { name: 'Layanan', href: '#services', current: false },
     { name: 'Portofolio', href: '#portfolio', current: false },
+    { name: 'Kalkulator', href: '/calculator', current: false },
     { name: 'Artikel', href: '#articles', current: false },
     { name: 'Kontak', href: '#contact', current: false },
   ];
@@ -21,6 +22,8 @@ const Header = () => {
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
+    } else if (href.startsWith('/')) {
+      window.location.href = href;
     }
     setIsMenuOpen(false);
   };
@@ -58,13 +61,13 @@ const Header = () => {
           {/* CTA Buttons */}
           <div className="hidden md:flex md:items-center md:space-x-4">
             <a 
-              href="https://wa.me/628123456789" 
+              href="https://wa.me/6281221556554" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               <Phone className="h-4 w-4 mr-1" />
-              +62 812-3456-789
+              +62 812-2155-6554
             </a>
             <Button variant="hero" size="lg" onClick={() => handleNavClick('#contact')}>
               Konsultasi Gratis
@@ -103,13 +106,13 @@ const Header = () => {
               ))}
               <div className="pt-4 pb-2 space-y-2">
                 <a 
-                  href="https://wa.me/628123456789" 
+                  href="https://wa.me/6281221556554" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center px-3 py-2 text-sm text-muted-foreground"
                 >
                   <Phone className="h-4 w-4 mr-2" />
-                  +62 812-3456-789
+                  +62 812-2155-6554
                 </a>
                 <div className="px-3">
                   <Button 

@@ -22,12 +22,12 @@ const Index = () => {
             <h2 className="text-3xl font-bold text-primary mb-4">Hubungi Kami</h2>
             <p className="text-muted-foreground mb-8">Form konsultasi akan segera hadir</p>
             <a 
-              href="https://wa.me/628123456789" 
+              href="https://wa.me/6281221556554" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex px-8 py-3 bg-accent-yellow text-accent-yellow-foreground rounded-lg font-semibold hover:bg-accent-yellow/90 transition-colors"
             >
-              WhatsApp: +62 812-3456-789
+              WhatsApp: +62 812-2155-6554
             </a>
           </div>
         </section>
