@@ -182,7 +182,7 @@ const TestimonialsSection = () => {
                 Mulai Konsultasi
               </button>
               <a 
-                href="tel:+628123456789"
+                href="tel:+6281221556554"
                 className="px-8 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors"
               >
                 Hubungi Langsung
