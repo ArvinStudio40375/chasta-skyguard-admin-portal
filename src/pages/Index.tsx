@@ -9,6 +9,24 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
+      
+      {/* Video Section */}
+      <section className="relative w-full">
+        <video 
+          className="w-full h-auto object-cover"
+          autoPlay 
+          muted 
+          loop 
+          playsInline
+        >
+          <source 
+            src="https://xpwajaymzericmluolhh.supabase.co/storage/v1/object/public/video/lv_0_20250821201340.mp4" 
+            type="video/mp4" 
+          />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
       <main>
         <HeroSection />
         <AboutSection />
